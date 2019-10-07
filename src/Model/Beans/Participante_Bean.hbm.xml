@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Model.Beans.Participante_Bean" table="participante" schema="foro">
+        <id name="idParticipante">
+            <column name="id_participante" sql-type="int(11)"/>
+        </id>
+        <property name="usuario">
+            <column name="usuario" sql-type="char(15)" length="15"/>
+        </property>
+        <property name="twit">
+            <column name="twit" sql-type="varchar(250)" length="250"/>
+        </property>
+    </class>
+</hibernate-mapping>

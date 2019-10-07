@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Foro">
+    <output-path>$PROJECT_DIR$/out/artifacts/Foro</output-path>
+    <root id="archive" name="Foro.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Foro" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.4.5-5.4.5" />
+          <element id="library" level="application" name="Java EE 6-Java EE 6" />
+          <element id="library" level="application" name="mysql:mysql-connector-java:8.0.17" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Foro/web/Web" />
+    </root>
+  </artifact>
+</component>
